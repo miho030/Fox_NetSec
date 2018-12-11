@@ -26,7 +26,7 @@ print"=       한국인터넷진흥원 KUCIS                     ="
 print"=                                                  ="
 print"=                             Made By Misty        ="
 print"=            (C) Copyright 2018 By Misty           ="
-print"+==================================================+\n\n\n"
+print"+==================================================+\n\n"
 
 print"[*] ", "Start network Secure Modules.../"
 
@@ -35,11 +35,11 @@ print"[*] ", "Start network Secure Modules.../"
 # file read machine
 def File_reader():
 
-    if os.path.isfile("/homefoxwomb/projects/sysctl.conf"):
-        print"[!] ", "sysctl.conf file is detected! Start the secure modules...\n\n"
+    if os.path.isfile("/home/foxwomb/projects/sysctl.conf"):
+        print"[!] ", "sysctl.conf file is detected! Start the secure modules...\n"
     else:
         print"sysctl file is not exist! check your linux system now!!"
-        print"Start secure module shutdown"
+        print"Start secure module shutdown\n\n"
 
 
     filedata = open("/home/foxwomb/projects/sysctl.conf", mode='r+t')
