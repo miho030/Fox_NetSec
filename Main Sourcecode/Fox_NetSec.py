@@ -46,7 +46,7 @@ def File_reader():
     Fox_lines = filedata.read()
 
     filedata.write("\n\n#  (C) CopyRight 2018 by Misty; KISA KUCIS SeaHawk chairman\n")
-    filedata.write("#  FOX_NETSEC's original SOURCE = http://github.com/mihho030/Fox_NetSec  \n")
+    filedata.write("#  FOX_NETSEC's original SOURCE = http://github.com/miho030/Fox_NetSec  \n")
     filedata.write("#  AND This security program is GNU GPL ver3. so you can edit this script for own your system.\n")
     filedata.write("#  This file is edit by Misty's Fox_NetSec Script. \n")
     filedata.write("#  Fox_NetSec secure and check security leel about Linux/Unix server system's sysctl.conf file. \n\n\n")
