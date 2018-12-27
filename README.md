@@ -2,7 +2,7 @@
 <hr/>
 Copyright 2018, Made By Misty; 한국인터넷진흥원 KUCIS
 <hr/>
-* * *
+
 ## Fox_NetSec을 만든 계기
 #### Linux/Unix 시스템에서는 일반적인 네트워크 공격들을 방어할 수 있는 수준의 설정값을 지원합니다.
 
@@ -30,7 +30,7 @@ sysctl은 kernel parameter값들을 조절하기 위한 utility 입니다.
 5. 커널 보안 파라미터 설정 뿐만 아니라, 서버를 운영하면서 system performance에 도움되는 설정값도 자동으로 적용.
 ```
 
-* * *
+
 ## 다음과 같이 실행할 수 있습니다!!
 ```
 root# python Fox_NetSec.py
@@ -43,7 +43,7 @@ root# python Fox_NetSec.py
 해당 2개 경로만 /etc/sysctl로 바꿔주시면 되겠습니다.
 ```
 
-* * *
+
 ## 업데이트
 #### 2018.12.27일자 업데이트 [내용은 아래와 같음.]
 '''
