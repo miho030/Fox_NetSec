@@ -1,4 +1,4 @@
-# sysctl.conf 파일 보호 모듈
+# sysctl.conf 보호 모듈
 <hr/>
 Copyright 2018, Made By Misty; 한국인터넷진흥원 KUCIS
 <hr/>
