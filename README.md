@@ -2,15 +2,22 @@
 <hr/>
 Copyright 2018, Made By Misty; 한국인터넷진흥원 KUCIS
 <hr/>
+
 ## Fox_NetSec을 만든 계기
-####Linux/Unix 시스템에서는 일반적인 네트워크 공격들을 방어할 수 있는 수준을 지원합니다.
+#### Linux/Unix 시스템에서는 일반적인 네트워크 공격들을 방어할 수 있는 수준의 설정값을 지원합니다.
+
+
 
 ```
-모든 종류의 네트워크 공격은 아니지만, 어느정도의 잘 알려진 네트워크 공격들(ICMP redirect, SYN spooffing, deny ping...~~)은
-/etc/sysctl.conf 경로에 위치한 sysctl.conf 파일의 보안 설정값을 통해 막을 수 있는 경우가 많습니다.
-많은 서버 보안에 종사하시는 분들이 먼저 서버를 구축하고 잡게 되면, 해당 서버가 안정화되면,
+sysctl은 kernel parameter값들을 조절하기 위한 utility 입니다.
+
+모든 종류의 네트워크 공격에 대한 방어는 아니지만, well known networking attack의 경우
+--> (ICMP redirect, SYN spooffing, deny ping, ignoring broadcasts ping request...~)
+
+/etc/sysctl.conf 경로에 위치한 sysctl.conf 파일의 커널 파라미터 설정값을 통해 막을 수 있는 경우가 많습니다.
+많은 서버 보안에 종사하시는 분들이 먼저 회사의 서버를 처음 잡고나서 일반적인 서비스들이 안정화되면,
 여러가지 해킹 공격에 대응하려고 노력하기 마련입니다.
-그 중, sysctl 파일의 보안 코드 설정은 아주 중요한 작업 중 하나이죠.
+그 중, sysctl 파일의 보안 코드 설정은 리눅스 초기 보안 작업 중 아주 중요한 작업 중 하나이죠.
 이 작업은 상당히 귀찮습니다.
 그래서 제작하게 된 것이 바로 이 녀석, Fox_NetSec이라는것이죠.
 ```
@@ -34,3 +41,10 @@ root# python Fox_NetSec.py
 테스트를 위해 filename의 변수 내용을 제 시스템 경로인 /home/foxwomb/projects/sysctl.conf의 경로로 설정되어 있습니다.
 해당 2개 경로만 /etc/sysctl로 바꿔주시면 되겠습니다.
 ```
+
+
+## 업데이트
+#### 2018.12.27일자 업데이트 [내용은 아래와 같음]
+'''
+커널 파라미터 설정값 
+'''
