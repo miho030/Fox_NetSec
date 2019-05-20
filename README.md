@@ -38,9 +38,7 @@ root# python Fox_NetSec.py
 
 ## 수정이 필요합니다!
 ```
-수정이 필요한 부분이 2곳 존재합니다.
-테스트를 위해 filename의 변수 내용을 제 시스템 경로인 /home/foxwomb/projects/sysctl.conf의 경로로 설정되어 있습니다.
-해당 2개 경로만 /etc/sysctl로 바꿔주시면 되겠습니다.
+추가적인 수정이 필요하지 않습니다.
 ```
 
 
