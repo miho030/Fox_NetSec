@@ -42,7 +42,7 @@ def File_reader():
         print"Start secure module shutdown\n\n"
 
 
-    filedata = open("/home/foxwomb/projects/sysctl.conf", mode='r+t')
+    filedata = open("/etc/sysctl.conf", mode='r+t')
     Fox_lines = filedata.read()
 
     filedata.write("\n\n#  (C) CopyRight 2018 by Misty; KISA KUCIS SeaHawk chairman\n")
