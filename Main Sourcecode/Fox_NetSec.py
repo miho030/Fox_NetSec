@@ -35,7 +35,7 @@ print"[*] ", "Start network Secure Modules.../"
 # file read machine
 def File_reader():
 
-    if os.path.isfile("/home/foxwomb/projects/sysctl.conf"):
+    if os.path.isfile("/etc/sysctl.conf"):
         print"[!] ", "sysctl.conf file is detected! Start the secure modules...\n"
     else:
         print"sysctl file is not exist! check your linux system now!!"
