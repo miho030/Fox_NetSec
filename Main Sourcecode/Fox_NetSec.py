@@ -324,7 +324,7 @@ def File_reader():
         print"[*] ", "Starting Secure patch"
         filedata.write("# Improve the number of open files\n")
         
-        # 하나의 프로세서에서 열 수 있는 파일 갯수 조정은 fs.h 컺널 소스 변경해야함.
+        # 하나의 프로세서에서 열 수 있는 파일 갯수 조정은 fs.h 커널 소스 변경해야함.
         filedata.write("# (fs.h INR_OPEN / limits.h NR_OPEN)\n")
         filedata.write("fs.file - max = 20480000\n\n")
         filedata.write("fs.inode - max = 81920000\n\n")
