@@ -33,7 +33,6 @@ Main logo printing end
 """
 
 
-
 # main code
 
 # recognize system's OS using(check file -> sysctl.conf)
