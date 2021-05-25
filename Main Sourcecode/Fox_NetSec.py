@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 
-
 """
 This Script is Made by Misty,(Lycan Sec; KISA KUCIS development team)
 This Script for Check sysctl.conf file to check secure codes are included.
